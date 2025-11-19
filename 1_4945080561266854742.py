@@ -1,0 +1,9 @@
+# Resolvendo equações lineares
+import numpy as np  
+from scipy import linalg    
+a = np.array([[2, 1], [4,-5]])  
+b = np.array([[5], [7]])  
+x = linalg.solve(a, b) 
+print(x)  
+print("\n Verificando os resultados, os valores devem ser zeros")  
+print(a.dot(x) - b)  
