@@ -1,2 +1,2 @@
 # railshow
-meu primeiro repositório github
+meu primeiro repositório github( métodos computacionais)
